@@ -4,7 +4,7 @@ Script that notifies the user when it's time to plug in or unplug the laptop to 
 
 ## Usage
 
-Download and unzip [Battery Status](https://github.com/yehwankim23/battery-status/releases/latest/download/battery-status.zip)
+Download and unzip [Battery Status](https://github.com/yehwankim23/battery-status/releases/download/v2021.8/battery-status.zip)
 
 ### Battery Level
 
