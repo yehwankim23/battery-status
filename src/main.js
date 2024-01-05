@@ -5,6 +5,10 @@ if (require("electron-squirrel-startup")) {
 }
 
 app.whenReady().then(() => {
+  if (process.platform === "darwin") {
+    app.dock.hide();
+  }
+
   const tray = new Tray("src/images/icon.ico");
   tray.setToolTip("Battery Status");
   tray.setContextMenu(Menu.buildFromTemplate([{ role: "quit", label: "Quit" }]));
