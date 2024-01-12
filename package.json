@@ -1,0 +1,32 @@
+{
+  "productName": "Battery Status",
+  "name": "battery-status",
+  "version": "2024.1.0",
+  "description": "Program that notifies the user when it's time to plug in or unplug the laptop to maximize the battery life",
+  "license": "LGPL-3.0-or-later",
+  "author": {
+    "name": "김예환 Ye-Hwan Kim (Sam)",
+    "email": "yehwankim23@gmail.com",
+    "url": "https://github.com/yehwankim23/battery-status"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "latest"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "latest",
+    "@electron-forge/maker-deb": "latest",
+    "@electron-forge/maker-rpm": "latest",
+    "@electron-forge/maker-squirrel": "latest",
+    "@electron-forge/maker-zip": "latest",
+    "@electron-forge/plugin-auto-unpack-natives": "latest",
+    "electron": "latest"
+  }
+}
