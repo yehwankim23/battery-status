@@ -27,18 +27,18 @@ function main() {
 
   navigator.getBattery().then((batteryManager) => {
     batteryManager.addEventListener("levelchange", (_event) => {
-      const level = batteryManager.level * 100;
+      const level = Math.round(batteryManager.level * 100);
 
       if (batteryManager.charging) {
         if (level >= 80) {
-          sendNotification("Battery sufficiently charged");
+          sendNotification(`You might want to unplug your PC (${level}%)`);
         }
 
         return;
       }
 
       if (level <= 20) {
-        sendNotification(`Low Battery: ${level}% battery remaining`);
+        sendNotification(`You might want to plug in your PC (${level}%)`);
       }
     });
   });

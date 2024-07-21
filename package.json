@@ -1,7 +1,7 @@
 {
   "productName": "Battery Status",
   "name": "battery-status",
-  "version": "2024.1.0",
+  "version": "2024.7.0",
   "description": "Program that notifies the user when it's time to plug in or unplug the laptop to maximize the battery life",
   "license": "LGPL-3.0-or-later",
   "author": {

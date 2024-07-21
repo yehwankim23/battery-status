@@ -30,7 +30,7 @@ npm i
 npm run make
 ```
 
-2. Unzip `out/make/zip/darwin/arm64/Battery Status-darwin-arm64-2024.1.0.zip`
+2. Unzip `out/make/zip/darwin/arm64/Battery Status-darwin-arm64-#.#.#.zip`
 3. Move `Battery Status.app` to the `Applications` folder
 4. (Optional) Add `Battery Status.app` in `System Settings` > `General` > `Login Items` > `+` to run `Battery Status` on computer startup
 5. Run `Battery Status.app`
